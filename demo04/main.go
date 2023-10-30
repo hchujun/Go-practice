@@ -35,5 +35,6 @@ func main() {
 	}
 	
 	wg.Wait()
+	fmt.Println("123")
 
 }
