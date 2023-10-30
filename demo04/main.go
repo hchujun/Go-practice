@@ -33,6 +33,7 @@ func main() {
 		wg.Add(1)
 		go test(r)
 	}
+	
 	wg.Wait()
 
 }
